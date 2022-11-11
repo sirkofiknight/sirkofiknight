@@ -1,0 +1,1177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>iLeap | Programs</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/jumbotron/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+
+        @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
+        @import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
+        /* ===================================== Basic CSS ==================================== */
+        * {
+          margin: 0px;
+          padding: 0px;
+          list-style: none; }
+        
+        img {
+          max-width: 100%; }
+        
+        a {
+          text-decoration: none;
+          outline: none;
+          color: #444; }
+        
+        a:hover {
+          color: #444; }
+        
+        ul {
+          margin-bottom: 0;
+          padding-left: 0; }
+        
+        a:hover,
+        a:focus,
+        input,
+        textarea {
+          text-decoration: none;
+          outline: none; }
+        
+        .center {
+          text-align: center; }
+        
+        .left {
+          text-align: left; }
+        
+        .right {
+          text-align: right; }
+        
+        .cp {
+          cursor: pointer; }
+        
+        html, body {
+          height: 100%; }
+        
+        p {
+          margin-bottom: 0px;
+          width: 100%; }
+        
+        .no-padding {
+          padding: 0px; }
+        
+        .no-margin {
+          margin: 0px; }
+        
+        .hid {
+          display: none; }
+        
+        .top-mar {
+          margin-top: 15px; }
+        
+        .h-100 {
+          height: 100%; }
+        
+        ::placeholder {
+          color: #747f8a !important;
+          font-size: 13px;
+          opacity: .5 !important; }
+        
+        .container-fluid {
+          padding: 0px; }
+        
+        h1, h2, h3, h4, h5, h6 {
+          color: #545454; }
+        
+        body {
+          background-color: #f1f1f145 !important;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          text-rendering: optimizeLegibility;
+          color: #6A6A6A;
+          overflow-x: hidden; }
+        
+        .session-title {
+          padding: 30px;
+          margin: 0px;
+          margin-bottom: 20px; }
+          @media screen and (max-width: 767px) {
+            .session-title {
+              padding: 5px; } }
+          .session-title h2 {
+            width: 100%;
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 0px; }
+          .session-title p {
+            max-width: 850px;
+            text-align: center;
+            float: none;
+            margin: auto;
+            font-size: .9rem;
+            margin-top: 6px; }
+          .session-title span {
+            float: right;
+            font-style: italic; }
+        
+        .inner-title {
+          padding: 20px;
+          padding-left: 0px;
+          margin: 0px;
+          margin-bottom: 10px;
+          padding-bottom: 0px;
+          border-bottom: 1px solid #ccccccc4;
+          display: block;
+          padding-right: 0px; }
+          .inner-title h2 {
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: left;
+            border-bottom: 1px solid #863dd9;
+            padding-bottom: 10px;
+            margin-bottom: 0px;
+            width: 300px; }
+          .inner-title p {
+            width: 100%;
+            text-align: center; }
+          .inner-title .btn {
+            float: right;
+            margin-top: -38px;
+            font-weight: 600;
+            font-size: .8rem; }
+        
+        .page-nav {
+          background-size: 100%;
+          padding: 68px;
+          text-align: center;
+          background-color: #eaeaea; }
+          .page-nav ul {
+            float: none;
+            margin: auto; }
+          @media screen and (max-width: 992px) {
+            .page-nav {
+              background-size: auto; } }
+          @media screen and (max-width: 767px) {
+            .page-nav {
+              padding-top: 200px;
+              padding-bottom: 40px; } }
+          @media screen and (max-width: 356px) {
+            .page-nav {
+              padding-top: 200px;
+              padding-bottom: 40px; } }
+          .page-nav h2 {
+            font-size: 28px;
+            width: 100%;
+            font-weight: 700;
+            color: #444; }
+            @media screen and (max-width: 600px) {
+              .page-nav h2 {
+                font-size: 26px; } }
+          .page-nav ul li {
+            float: left;
+            margin-right: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+            font-size: .93rem;
+            font-weight: 600;
+            color: #444; }
+            .page-nav ul li i {
+              width: 30px;
+              text-align: center;
+              color: #444; }
+            .page-nav ul li a {
+              color: #444;
+              font-size: .93rem;
+              font-weight: 600; }
+        
+        .btn-success {
+          background-color: #51be78;
+          border-color: #51be78; }
+          .btn-success:hover {
+            background-color: goldenrod !important;
+            border-color: #51be78 !important; }
+          .btn-success:active {
+            background-color: #51be78 !important;
+            border-color: #51be78 !important; }
+          .btn-success:focus {
+            background-color: #51be78 !important;
+            border-color: #51be78 !important;
+            box-shadow: none !important; }
+        
+        .btn-primary {
+          background-color: #3cc88f;
+          border-color: #3cc88f; }
+          .btn-primary:hover {
+            background-color: goldenrod!important;
+            border-color: #3cc88f !important; }
+          .btn-primary:active {
+            background-color: #3cc88f !important;
+            border-color: #3cc88f !important; }
+          .btn-primary:focus {
+            background-color: #3cc88f !important;
+            border-color: #3cc88f !important;
+            box-shadow: none !important; }
+        
+        .btn {
+          box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          border-radius: 2px; }
+        
+        .form-control:focus {
+          box-shadow: none !important;
+          border: 1px solid #CCC; }
+        
+        .btn-light {
+          background-color: #FFF;
+          color: #3F3F3F; }
+        
+        .collapse.show {
+          display: block !important; }
+        
+        .form-control:focus {
+          box-shadow: none;
+          border: 1px solid #CCC; }
+        
+        .form-control {
+          background-color: #F8F8F8;
+          margin-bottom: 20px; }
+          .form-control:focus {
+            background-color: #FFF;
+            border-color: #CCC; }
+        
+        .container {
+          max-width: 1170px; }
+          @media screen and (max-width: 575px) {
+            .container {
+              padding: 10px 15px; } }
+        
+        /* =================== Header Style Starts Here =================== */
+        header {
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          background-color: #FFF;
+          width: 100%;
+          z-index: 99; }
+          header .logo {
+            padding-top: 6px; }
+          header .header-top {
+            background-color: #fff;
+            border-bottom: 1px solid #d3d7cea6;
+            padding: 7px; }
+            header .header-top .col-det .ulleft li {
+              float: left;
+              padding: 12px;
+              color: #686968;
+              font-size: .9rem; }
+              header .header-top .col-det .ulleft li i {
+                margin-right: 5px;
+                color: #bfbfbf; }
+              header .header-top .col-det .ulleft li span {
+                margin-left: 15px; }
+            header .header-top .col-det .ulright {
+              float: right; }
+              header .header-top .col-det .ulright li {
+                float: left;
+                padding: 10px;
+                color: #d3d7ce;
+                font-size: 1rem;
+                font-weight: 600; }
+                header .header-top .col-det .ulright li i {
+                  margin-right: 5px;
+                  color: #8c8a8a; }
+                header .header-top .col-det .ulright li small {
+                  color: #8c8a8a;
+                  font-weight: 600; }
+                header .header-top .col-det .ulright li span {
+                  margin-left: 15px; }
+            header .header-top .btn-bhed {
+              padding-top: 7px;
+              text-align: right; }
+              header .header-top .btn-bhed .btn {
+                padding: 5px 23px;
+                border-radius: 50px;
+                margin-left: 5px; }
+          header .header-bottom {
+            padding: 6px;
+            background-color: #fff; }
+            @media screen and (max-width: 991px) {
+              header .header-bottom {
+                padding: 0px; } }
+            @media screen and (max-width: 991px) {
+              header .header-bottom img {
+                padding: 5px;
+                margin-top: 0px;
+                max-width: 230px; } }
+          header .nav-col .navbad {
+            display: block;
+            float: right; }
+            @media screen and (max-width: 991px) {
+              header .nav-col .navbad {
+                width: 100%; } }
+            header .nav-col .navbad li {
+              padding: 15px 15px;
+              font-weight: 700;
+              font-size: .7rem;
+              float: left; }
+              @media screen and (max-width: 1005px) {
+                header .nav-col .navbad li {
+                  padding: 15px 12px; } }
+              @media screen and (max-width: 991px) {
+                header .nav-col .navbad li {
+                  float: none;
+                  width: 100%;
+                  padding: 10px; } }
+              header .nav-col .navbad li a {
+                color: #686968 !important;
+                border: 1px solid #CCC;
+                border-radius: 50px; }
+                header .nav-col .navbad li a:hover {
+                  background-color: goldenrod;
+                  color: #fff !important; }
+            header .nav-col .navbad .nav-btn {
+              float: right; }
+          header .small-menu {
+            float: right;
+            color: #686968;
+            font-size: 1.8rem;
+            position: absolute;
+            right: 10px;
+            top: 19px; }
+        
+        @media screen and (max-width: 767px) {
+          .navbar {
+            padding: 0px; } }
+        
+        .navbar-toggler {
+          position: absolute;
+          right: 0px;
+          top: -40px; }
+          @media screen and (max-width: 767px) {
+            .navbar-toggler {
+              top: -50px; } }
+        
+        .scroll-to-fixed-fixed {
+          background-color: #FFF;
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+        
+        .scroll-to-fixed-fixed {
+          padding: 5px !important; }
+        
+        /* =================== Slider Style Starts Here =================== */
+        .slider {
+          position: relative; }
+        
+        .slider-captions {
+          position: absolute;
+          bottom: 132px;
+          text-align: center; }
+        
+        @media screen and (max-width: 1050px) {
+          .slider-captions {
+            bottom: 100px !important; }
+        .slider-captions{
+          width: 90%;
+          text-align: center;
+          float: none;
+          margin: auto;
+        }
+          .slider-captions .slider-title {
+            font-size: 42px; } }
+        @media screen and (max-width: 810px) {
+          .slider-captions {
+            bottom: 50px !important; }
+        
+          .slider-captions .slider-title {
+            font-size: 32px; } }
+        @media screen and (max-width: 572px) {
+          .slider-captions {
+            display: none; } }
+        .slider-title {
+          font-size: 66px;
+          font-weight: 600;
+          color: #fff;
+          letter-spacing: -3px; }
+        
+        .slider-text {
+          margin-bottom: 20px;
+          color: #fff; }
+        
+        .slider-img {
+          background: -moz-linear-gradient(top, rgba(45, 32, 44, 0.3) 0%, rgba(45, 32, 44, 0.1) 100%);
+          background: -webkit-linear-gradient(top, rgba(45, 32, 44, 0.3) 0%, rgba(45, 32, 44, 0.1) 100%);
+          background: linear-gradient(to bottom, rgba(45, 32, 44, 0.3) 0%, rgba(45, 32, 44, 0.1) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc1b2429', endColorstr='#cc1b2429', GradientType=0);
+          position: relative; }
+        
+        .slider-img img {
+          position: relative;
+          z-index: -1; }
+        
+        .slider .owl-nav .owl-prev,
+        .slider .owl-nav .owl-next {
+          color: #fff;
+          display: inline-block;
+          zoom: 1;
+          margin: 5px;
+          padding: 6px 12px;
+          font-size: 22px;
+          -webkit-border-radius: 23px;
+          -moz-border-radius: 23px;
+          border-radius: 23px;
+          background: transparent;
+          filter: Alpha(Opacity=50);
+          line-height: 1;
+          border: 2px solid #fff; }
+        
+        .owl-controls.clickable .owl-buttons div:hover {
+          filter: Alpha(Opacity=100);
+          opacity: 1;
+          text-decoration: none;
+          background-color: #fff; }
+        
+        .slider .owl-nav .owl-prev {
+          position: absolute;
+          top: 40%;
+          left: 25px; }
+        
+        .slider .owl-nav .owl-next {
+          position: absolute;
+          top: 40%;
+          right: 25px; }
+        
+        .slider .owl-dots .owl-dot {
+          position: relative;
+          text-align: center;
+          bottom: 40px;
+          max-width: 1140px;
+          margin: 0 auto; }
+        
+        .slider .owl-dots .owl-dot span {
+          display: block;
+          width: 14px;
+          height: 14px;
+          margin: 0px 0px 10px 10px;
+          filter: Alpha(Opacity=50);
+          /*IE7 fix*/
+          opacity: 0.8;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          border-radius: 20px;
+          border: 2px solid #fff;
+          float: left; }
+        
+        .slider .owl-dots .owl-dot.active span {
+          background-color: #fff; }
+        
+        .slider .owl-dots .owl-dot.active span,
+        .slider .owl-controls.clickable .owl-page:hover span {
+          background-color: #fff;
+          filter: Alpha(Opacity=100);
+          /*IE7 fix*/
+          opacity: 1; }
+        
+        .slider .col-lg-offset-2 {
+          float: none;
+          margin: auto; }
+        
+        /* ===================================== About CSS ================================== */
+        .about-us {
+          background-color: #edf1f5;
+          padding: 50px; }
+          @media screen and (max-width: 940px) {
+            .about-us {
+              padding: 30px 10px; } }
+          .about-us .natur-row {
+            margin-top: 20px; }
+          .about-us .text-part h2 {
+            font-weight: 600;
+            font-size: 1.8rem;
+            margin-bottom: 20px; }
+          .about-us .text-part p {
+            text-indent: 20px;
+            margin-bottom: 15px;
+            line-height: 27px;
+            font-weight: 500;
+            text-align: justify;
+            font-size: .9rem; }
+          .about-us .image-part .about-quick-box .about-qcard {
+            padding: 50px 30px;
+            background-color: #FFF;
+            box-shadow: 0 2px 3px 0 rgba(218, 218, 253, 0.35), 0 0px 3px 0 rgba(206, 206, 238, 0.35);
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 30px; }
+            .about-us .image-part .about-quick-box .about-qcard p {
+              font-weight: 600;
+              font-size: 1.2rem; }
+            .about-us .image-part .about-quick-box .about-qcard i {
+              font-size: 3rem;
+              margin-bottom: 30px;
+              color: goldenrod; }
+            .about-us .image-part .about-quick-box .about-qcard .red {
+              color: #ff6b70; }
+            .about-us .image-part .about-quick-box .about-qcard .yell {
+              color: #f7a900; }
+            .about-us .image-part .about-quick-box .about-qcard .blu {
+              color: goldenrod; }
+        
+        /* ===================================== Events Home CSS ================================== */
+        .events {
+          background-color: #efefef2e;
+          padding: 50px; }
+        
+        @media screen and (max-width: 940px) {
+          .events {
+            padding: 30px 10px; } }
+        .events .event-ro .event-box {
+          text-align: center;
+          margin-bottom: 20px; }
+        
+        .events .event-ro .event-box img {
+          margin-bottom: 20px; }
+        
+        .events .event-ro .event-box h4 {
+          font-size: 18px; }
+        
+        .events .event-ro .event-box .raises {
+          margin-bottom: 10px; }
+        
+        .events .event-ro .event-box .raises span {
+          color: #71b61b; }
+        
+        .events .event-ro .event-box .desic {
+          font-size: 13px;
+          margin-bottom: 15px; }
+        
+        /* ===================================== Mission Vision CSS ================================== */
+        .mission-vision {
+          background-color: #FFF; }
+          .mission-vision .mission {
+            padding: 50px; }
+            @media screen and (max-width: 940px) {
+              .mission-vision .mission {
+                padding: 30px 10px; } }
+          .mission-vision .vision {
+            padding: 50px; }
+            @media screen and (max-width: 940px) {
+              .mission-vision .vision {
+                padding: 30px 10px; } }
+          .mission-vision .mv-det {
+            margin: auto; }
+        
+        /* ===================================== Charity Number CSS ================================== */
+        .doctor-message {
+          background-image: url("../images/slider/slider-2.jpg");
+          background-attachment: fixed;
+          background-size: cover; }
+          .doctor-message .session-title h2 {
+            color: #FFF; }
+        
+        .doctor-message .inner-lay {
+          background-color: rgba(0, 0, 0, 0.8);
+          padding: 50px;
+          color: #FFF; }
+        
+        @media screen and (max-width: 940px) {
+          .doctor-message .inner-lay {
+            padding: 30px 10px; } }
+        .doctor-message .inner-lay .numb {
+          text-align: center;
+          padding: 30px; }
+        
+        .doctor-message .inner-lay .numb h3 {
+          font-size: 42px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #CCC;
+          margin-bottom: 20px;
+          color: #FFF; }
+        
+        /* ===================================== Our Blog CSS ================================== */
+        .our-blog {
+          background-color: #FDFDFD;
+          padding: 40px; }
+        
+        @media screen and (max-width: 967px) {
+          .our-blog {
+            padding: 30px 0px; } }
+        .our-blog .single-blog {
+          margin-bottom: 20px;
+          background-color: #FFF;
+          box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54); }
+        
+        .our-blog .single-blog figure {
+          margin-bottom: 5px; }
+        
+        .our-blog .single-blog .blog-detail {
+          padding: 15px; }
+        
+        .our-blog .single-blog small {
+          color: #71b61b;
+          font-size: 12px; }
+        
+        .our-blog .single-blog h4 {
+          font-size: 1.2rem;
+          margin-bottom: 10px;
+          margin-top: 10px; }
+        
+        .our-blog .single-blog p {
+          text-align: justify;
+          text-indent: 20px; }
+        
+        .our-blog .single-blog .link a {
+          font-size: 12px;
+          color: #71b61b; }
+        
+        .our-blog .single-blog .link i {
+          padding-top: 6px;
+          margin-left: 5px;
+          color: #FFFFFF; }
+        
+        /* ===================================== Fooer CSS ================================== */
+        .footer {
+          padding: 50px;
+          padding-bottom: 50px;
+          background-color: #1e2436;
+          color: #FFF; }
+        
+        @media screen and (max-width: 940px) {
+          .footer {
+            padding: 30px 10px; } }
+        .footer h2 {
+          font-size: 26px;
+          margin-top: 10px;
+          color: #FFF;
+          font-size: 1.2rem;
+          margin-bottom: 15px; }
+        
+        .footer p {
+          text-align: justify;
+          text-indent: 20px;
+          font-size: .9rem; }
+        
+        .footer .link-list li {
+          padding: 10px;
+          border-bottom: 1px solid #6C6C6C;
+          font-size: .9rem; }
+        
+        .footer .link-list li a {
+          color: #FFF; }
+        
+        .footer .link-list li i {
+          float: right; }
+        
+        .footer .map-img {
+          font-weight: 600;
+          font-size: 17px;
+          padding-left: 20px; }
+        
+        .footer address {
+          font-weight: 300; }
+        
+        .footer address a {
+          color: #FFF;
+          font-size: 1rem;
+          font-family: "mouse-300", Arial, Helvetica, sans-serif; }
+        
+        .copy {
+          padding: 20px;
+          background: #1a202f;
+          color: #FFF; }
+        
+        .copy a {
+          color: #FFF; }
+        
+        .copy span {
+          float: right; }
+        
+        .copy span i {
+          margin-right: 20px; }
+        
+        .kf-2 {
+          background-color: #FCFCFC;
+          padding: 50px; }
+        
+        @media screen and (max-width: 940px) {
+          .kf-2 {
+            padding: 30px 10px; } }
+        .kf-2 .single-key {
+          box-shadow: 0 2px 3px 0 rgba(218, 218, 253, 0.35), 0 0px 3px 0 rgba(206, 206, 238, 0.35); }
+        
+        /* ===================================== Our Team Starts Here ===================================== */
+        .our-team {
+          padding: 50px;
+          background-color: #cccccc1c; }
+          @media screen and (max-width: 940px) {
+            .our-team {
+              padding: 30px 10px; } }
+          .our-team .team-row {
+            margin-top: 20px; }
+            .our-team .team-row .single-usr {
+              box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
+              margin-bottom: 20px; }
+              .our-team .team-row .single-usr img {
+                width: 100%; }
+              .our-team .team-row .single-usr .det-o {
+                padding: 20px;
+                background-color: goldenrod; }
+                .our-team .team-row .single-usr .det-o h4 {
+                  color: #FFF;
+                  margin-bottom: 0px;
+                  font-size: 1.1rem;
+                  font-weight: 600; }
+                .our-team .team-row .single-usr .det-o i {
+                  color: #FFF;
+                  font-size: .8rem; }
+        
+        .nav-box {
+          margin-top: 50px;
+          border-radius: 50px;
+          border: 1px solid #ccc; }
+          .nav-box ul li {
+            float: left;
+            padding: 15px; }
+            .nav-box ul li a {
+              color: #FFFF; }
+          .nav-box .btn {
+            margin-top: 7px;
+            float: right;
+            border-radius: 50px; }
+        
+        /* ===================================== Gallery Style  ================================== */
+        .gallery-filter {
+          width: 100%;
+          text-align: center; }
+        
+        .gallery-filter .btn {
+          background-color: #FFF; }
+        
+        .gallery {
+          padding: 50px;
+          padding: 30px;
+          background-color: #FFF; }
+          @media screen and (max-width: 940px) {
+            .gallery {
+              padding: 30px 10px; } }
+        
+        .gallery-title {
+          font-size: 36px;
+          color: #00ab9f;
+          text-align: center;
+          font-weight: 500;
+          margin-bottom: 70px; }
+        
+        .gallery-title:after {
+          content: "";
+          position: absolute;
+          width: 7.5%;
+          left: 46.5%;
+          height: 45px;
+          border-bottom: 1px solid #3cc88f; }
+        
+        .filter-button {
+          font-size: 18px;
+          border: 1px solid #3cc88f;
+          border-radius: 5px;
+          text-align: center;
+          color: #3cc88f;
+          margin-bottom: 30px; }
+        
+        .filter-button:hover {
+          font-size: 18px;
+          border: 1px solid #3cc88f;
+          border-radius: 5px;
+          text-align: center;
+          color: #ffffff;
+          background-color: #3cc88f; }
+        
+        .btn-default:active .filter-button:active {
+          background-color: #3cc88f;
+          color: white; }
+        
+        .port-image {
+          width: 100%; }
+        
+        .gallery_product {
+          margin-bottom: 30px; }
+        
+        /*# sourceMappingURL=style.css.map */
+        
+
+    </style>
+
+</head>
+
+<body>
+
+    
+  <header class="continer-fluid ">
+    <div  class="header-top">
+        <div class="container">
+            <div class="row col-det">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <ul class="ulleft">
+                        <li>
+                            <i class="far fa-envelope"></i>
+                            email: info@ileapinternational.com
+                            <span>|</span></li>
+                        <li>
+                            <i class="fas fa-phone-volume"></i>
+                            00233 31 229 4157</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 folouws">
+                  
+                    <ul class="ulright">
+                       <li> <small>Folow Us </small>:</li>
+                        <li>
+                            <i class="fab fa-facebook-square"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter-square"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 d-none d-md-block col-md-6 btn-bhed">
+                    <button class="btn btn-sm btn-danger">Become a Volunteer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu-jk" class="header-bottom">
+        <div class="container">
+            <div class="row nav-row">
+                <div class="col-lg-3 col-md-12 logo">
+                    <a href="index.html">
+                        <img src="assets/images/logonew.jpg" alt="" width="80" height="50">
+                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
+                    </a>
+
+                </div>
+
+                
+                <div id="menu" class="col-lg-9 col-md-12 d-none d-lg-block nav-col">
+
+                            <ul class="navbad">
+                               
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about_us.html">About Us</a>
+                                </li>
+                                
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="link" data-bs-toggle="dropdown" aria-expanded="false">Volunteering Programs</a>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                        <li><a class="dropdown-item" href="programs.html">Programs</a></li>
+                                        <li><a class="dropdown-item" href="whyileap.html">Why iLeap?</a></li>
+                                        <li><a class="dropdown-item" href="fees.html">Program fees</a></li>
+                                        <li><a class="dropdown-item" href="vpoilcy.html">Volunteering Policy</a></li>
+                                        <li><a class="dropdown-item" href="virtualVolunteering.html">Virtul Volunteering</a></li>
+                                        <li><a class="dropdown-item" href="#">Apply Now</a></li>
+                                        <li><a class="dropdown-item" href="faq.html">FAQ’s</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="link" data-bs-toggle="dropdown" aria-expanded="false">Intercultural Programs</a>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                
+                                        <li><a class="dropdown-item" href="#">International students</a></li>
+                                        <li><a class="dropdown-item" href="#">Gap year students</a></li>
+                                        <li><a class="dropdown-item" href="interculturalfees.html">Program Fees</a></li>
+                                        
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="link" data-bs-toggle="dropdown" aria-expanded="false">Tour</a>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                        
+                                        <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                                        <li><a class="dropdown-item" href="#">Sign Up</a></li>
+            
+                                      
+                                    </ul>
+                                </li>
+    
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="shoponline.html">Shop Online
+                                  </a>
+                              </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Research</a>
+                                </li>
+
+
+                            </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div> 
+</header>
+  <!--  ************************* Page Title Starts Here ************************** -->
+        
+    <div class="page-nav no-margin row">
+        <div class="container">
+            <div class="row">
+                <h2>iLeap Programs</h2>
+              
+            </div>
+        </div>
+       <div class="container">
+        <h5> Explore iLeap volunteering & cultural programs. </h5>
+        <a class="btn btn-danger btn-lg" href="#!" role="button"
+        >Apply Now</a>
+       </div>
+    </div>
+    
+    
+   
+<!-- ################# Our Blog Starts Here#######################--->
+
+    <section class="our-blog">
+
+        
+         	<div class="container py-4">
+         		
+                   <h3><strong>Dental Volunteer Program</strong></h3><hr>
+                   <p style=" text-align: justify;
+                   text-justify: inter-word;">
+                   The Dental Volunteer Program presents an opportunity for dentists, dentistry students, 
+                   dental hygienists and dental assistants, as well as pre-dental volunteer opportunities to 
+                   join our Doctors on Wheels Project. It is exciting to be part of medical teams from different
+                    countries aiming to provide health services for vulnerable rural communities. If you are passionate
+                     about improving rural quality of life then this is your call.  <hr> </p>
+
+                     <h3><strong>Mental Healthcare Program</strong></h3><hr>
+                     <p style=" text-align: justify;
+                     text-justify: inter-word;">
+                     From advocates, counsellors, psychiatric nurses, psychologists, students, we have exciting roles at iLeap.
+                      You will have the privilege to work at Pantang Hospital, Accra (the biggest Psychiatric Hospital in West Africa)
+                       which is just few meters from the iLeap Office. Depending on your expertise or abilities, you will teach or be
+                        taught on a range of issues aimed at providing care for the mentally challenged. You will learn a lot as you get
+                         to understand conditions at psychiatric hospitals, move with  assistant community  psychiatric nurses in communities 
+                         to confront stigma surrounding mental healthcare in Ghana  <hr> </p>
+
+                         <h3><strong>Medical Care Program</strong></h3><hr>
+                         <p style=" text-align: justify;
+                         text-justify: inter-word;">
+                         This program is for trainee medical doctors as well as qualified healthcare professionals with a passion in gaining
+                          global medical perspective and experience in developing countries. Qualified nurses & student nurses are also strongly 
+                          encouraged to apply. Hospitals in cities are fairly equipped. There is a lot to be done in rural areas. Accepted applicants
+                           join our Doctors on Wheels Program to give healthcare to vulnerable and remote communities in Ghana. Volunteers should 
+                           anticipate that they will work with limited resources, a different healthcare system they will love to learn about.  <hr> </p>                         
+
+                           <h3><strong>Environmental Conservation</strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           Ghana’s Forestry Commission regulates the utilization of forest and wildlife resources, conserving and managing resources and coordinating policies related to them. In meeting global volunteering standards for forest and wildlife resource conservation, I Leap collaborates with corporate bodies of excellence to sustain Ghana’s environment. Volunteers gets the chance to learn about Ghana’s forest reserves, wildlife and the timber industry. As a volunteer you help with selection of seedlings, bagging of seedlings, nursery of trees, tree planting, maintaining  trees, site restoration and other administrative assistance.    <hr> </p>
+
+                           <h3><strong>Veterinary/ Animal Care Program</strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           This program allows volunteers to contribute to the creation of animal health system and provide quality animal health system to enhance productivity. You will work at a veterinary clinic with laboratory services, control units, epidemiology unit among others. Volunteers also get the chance to work in the zoo (Accra Kumasi), Mole National Park in the Northern Region of Ghana, Monkey Sanctuary at Boabeng Fiema among others.  Your contribution can be in the field of researching into species, growth patterns, data gathering among others.   <hr> </p>
+
+                           <h3><strong>Legal Volunteering Program</strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           The program is committed to supporting young Lawyers build and maintain sustainable careers in the legal aid sector. Legal volunteers gain in-depth understanding of the historical development of the legal system of Ghana. Supervised by senior Lawyers, volunteers work with Law Firms, visit the courts; District Courts, Circuit Courts, High Courts among others to have a Ghanaian court room experience. Volunteers will also have the chance to visit selected Law Faculties in Greater Accra Region and the Ashanti Region. You will also get the chance to visit some selected prisons  <hr> </p>
+
+                           <h3><strong>STEM Program</strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           This program is for STEM lovers. Our STEM Program partners professional volunteers with teachers and community programs to lead children and youth through interactive STEM activities in the classroom and after school programs. Virtual outreach opportunities are available! <hr> </p>
+        		
+
+                           <h3><strong>Microfinance  Program</strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           Broadening financial inclusion in Ghana is important for ensuring inclusive growth and achieving the objectives of the strategic plan of the financial sector. Inclusive financial sectors allow low earning households to manage risks and smooth consumption. Opportunities are provided for very micro and small enterprises to survive and grow. Microfinance bridges geographical dispersion by providing access to savings and payment services to populations in rural and remote regions. As a volunteer, you will help explain the policies of a micro finance with its clients. Oversee loan application forms and advise clients. You will offer financial literacy for rural communities including market women, collecting payments, assisting with interviews and checking on progress of customers and reporting. <hr> </p>
+
+                           <h3><strong>Local Government Program</strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           The internship program provide a high level of professional development and hands-on training that helps volunteers/interns to work under the mentorship of senior municipal professionals, develop a broad understanding of Ghanaian local government governance, procurement and develop skills and competencies in administration, finance or land use planning.   <hr> </p>
+
+                           <h3><strong>Urban Infrastructure Project</strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           Volunteers  get to work in a diverse, welcoming, and fun environment, on amazing projects, whilst starting  their to become professionally qualified. As a volunteer, you will join our cohort of Engineers, Project Managers, Data specialist, Environmentalist, Health Safety Engineers among others. This program is catered to your specific discipline. You will learn on the job, work on some amazing projects and be mentored by some of our industries leading practitioners. <hr> </p>
+
+                           <h3><strong>Missionary Program</strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           As a missionary volunteer, the aim is to go into communities and teach about Christ Jesus and the Christian faith. This is made possible through partnerships we have built over the years with accredited churches in communities we serve. We understand that missionary volunteers do have different skill sets and would prefer to undertake other projects such as classroom teaching, infrastructure building, caring for orphans among. Regardless of your plan, short term or long term and what you want to do, talk to the iLeap team.  <hr> </p>
+
+
+                           <h3><strong>Sports Development  Program</strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           I Leap Sports volunteering is the chance to combine your love for sports whilst having fun in Ghana. Sports volunteering is the perfect way to teach your favorite sports to children and pass on your passion to them. By volunteering, you provide an opportunity for children to learn important soft skills, build confidence and work as a team. All you need to do is to tell is where  you can make a meaningful contribution. The moment you volunteer, there is a creation of intercultural understanding where rural children and their sports trainer learn from each other. You assist children to keep a healthy lifestyle.  <hr> </p>
+
+                           <h3><strong>Child Care</strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           Our childcare project enables volunteers to gain experience in early childhood education in cities and rural communities across Ghana. As a volunteer you will be required to help with early education in numeracy and literacy. You will also help with  planning meals for children. If you love to sing, tell stories and recite rhymes for children to smile then is your project.  <hr> </p>
+
+                           <h3><strong>Agriculture Program</strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           I Leap Agriculture program aims to be a sustainable food provider to vulnerable communities. The program is designed to enable volunteers acquire experience in agriculture and animal husbandry. Your skills and knowledge will also assist local farmers provide food and resources for children in disadvantaged communities.  <hr> </p>
+
+                           <h3><strong>Construct & Renovate Program </strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           This is fun. You become a member of I Leap team of builders. You form teams with volunteers from other countries to build and renovate community projects. Volunteers interested in the <strong>Social Infrastructure Program </strong> are strongly advised to apply to gain building experience while improving the social infrastructure in rural towns. You will be tasked to work alongside locals to build, repair and upgrade clinics, community centers, toilet facilities, schools and bore holes. You will be challenged to take counsel with your team to come out with a sustainable models to sustain the project you have just built or renovated.  <hr> </p>
+
+                           <h3><strong>Creativity Training Program </strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           There appears to be lack of creative pedagogies in Ghanaian schools and this has led to lack of creative graduates at all levels. This outcome has in turn, increased the unemployment rate in the country. In view of the need for divergent and analytical thinking skills in the current global economy, creativity should be taught and fostered in schools. As a volunteer, you will be required to ensure technical skills development of children in visual, literary and performing arts disciplines as well as research and design (depending on your area of knowledge & expertise).   <hr> </p>
+
+                           <h3><strong>Creativity Training Program </strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           Journalism in Ghana in requires an unmatched level of creativity and drive. It is a great way to demonstrate to local Tv & radio stations that  you have passion for the field, and the tenacity to dive into it, scripting your own career path. Additionally, you show to your team mates that you have an adventurous side. A burning desire and pure heart to make the world a better place for the most vulnerable. You may want to enhance your understanding of the media. As a volunteer, you will be required to do the following: <br>
+
+<br>●	Writing news stories and featured articles
+<br>●	Covering stories on social infrastructure in disadvantaged communities.
+<br>●	Covering I Leap programs and the local media you will be working with
+<br>●	Researching stories and conducting field interviews
+<br>●	Doing stories to highlight challenges on ground.
+<br>●	Editing work for publication
+<br>●	Attending conferences
+<hr> </p>
+
+<h3><strong>Girls Advocate Program </strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           At ILeap, we believe investing in girls education is one of the most transformative development strategies. 129 million girls are out of school globally. Girls face barriers to education caused by poverty, cultural norms and practices, poor infrastructure, violence and fragility.  Girls education is about ensuring that girls learn and feel safe while in school and have the opportunity to complete all levels of education, acquiring skills to compete in the labor market.
+As a girls advocate volunteer, you join the I Leap Girls Effect Program. You will be required to be part of our team championing our  investing in girls education. Attending conferences as a speaker, appearing on  TV and radio programs to make sound arguments.  From market squares, streets, churches and schools, the voices of the voiceless will be heard through you. It is fun and you will be filled with memories. Remember, when you volunteer, the following changes are realized: <br>
+<br>●	Reduction in the lifetime earnings of girls
+<br>●	Decrease in national growth rate
+<br>●	Increase in child marriage rates
+<br>●	Rise in child mortality rates
+<br>●	Rise in maternal mortality rates
+<br>●	Increase in child stunting
+  <hr> </p>
+
+  <h3 style="text-align:center"><strong>SDG Goal 17 @ Work </strong></h3><hr>
+                           <p style=" text-align: justify;
+                           text-justify: inter-word;">
+                           At the heart of what we do is strengthening the means of implementing the global partnership for sustainable development through collaborations. Strategically, iLeap has partnered every local police station in communities we work in. 
+                           ILeap collaborates with government institutions, civil society groups, private companies. This collaboration gives iLeap the leverage to place volunteers where they will make significant impact. Strategic partnerships enable iLeap to reduce programs cost, build teams of professionals; Lawyers, Doctors, Teachers, Engineers, Professors among others who provide further directions for our programs. Volunteers are able to build strong partnership during and after their volunteering time. We are proud to deliver sustainable and impactful programs to benefit the vulnerable communities we serve. 
+                            </p>
+  
+
+
+         	</div>
+         </section>
+      
+      
+       
+  
+                 
+  <!--  ************************* Footer Starts Here ************************** -->
+          
+  <footer class="footer bg-danger">
+    <div class="container bg-danger">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <h2>About Us</h2>
+                <p>
+                  For every $1 USD program fees paid, 80% is spent on volunteer accommodation, meals, support systems among others. 40% promotes SLP & children programs. 
+                  For every $1 USD program fees paid, 95% is spent on SLP & children programs
+                    
+                </p>
+                
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <h2>Useful Links</h2>
+                <ul class="list-unstyled link-list">
+                    <li><a ui-sref="about" href="#/about">About us</a><i class="fa fa-angle-right"></i></li>
+                    <li><a ui-sref="gallery" href="#/gallery">Gallery</a><i class="fa fa-angle-right"></i></li>
+                    <li><a ui-sref="contact" href="#/contact">Contact us</a><i class="fa fa-angle-right"></i></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-12 map-img">
+                <h2>Contact Us</h2>
+                <address class="md-margin-bottom-40">
+                  Post Office Box CT 6013, Cantonments, Accra – Ghana. <br>
+                  
+                    Phone: 00233 31 229 4157 <br>
+                    Email: <a href="mailto:info@ileapinternational.com" class="">info@ileapinternational.com</a><br>
+                    Web: <a href="#" class="">www.ileapinternational.com</a>
+                </address>
+
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    
+
+</footer>
+<div class="copy">
+        <div class="container">
+            <a href="#">2022 &copy; All Rights Reserved | iLeaps international</a>
+            
+            <span>
+           
+            <a><i class="fab fa-google-plus-g"></i></a>
+            <a><i class="fab fa-youtube"></i></a>
+            <a><i class="fab fa-twitter"></i></a>
+            <a><i class="fab fa-facebook-f"></i></a>
+    </span>
+        </div>
+
+    </div>
+        
+          
+    
+</body>
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="assets/plugins/slider/js/owl.carousel.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>          
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+
+</html>

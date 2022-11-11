@@ -1,0 +1,1279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>iLeap | Blog</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/jumbotron/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+
+        @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
+        @import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
+        /* ===================================== Basic CSS ==================================== */
+        * {
+          margin: 0px;
+          padding: 0px;
+          list-style: none; }
+        
+        img {
+          max-width: 100%; }
+        
+        a {
+          text-decoration: none;
+          outline: none;
+          color: #444; }
+        
+        a:hover {
+          color: #444; }
+        
+        ul {
+          margin-bottom: 0;
+          padding-left: 0; }
+        
+        a:hover,
+        a:focus,
+        input,
+        textarea {
+          text-decoration: none;
+          outline: none; }
+        
+        .center {
+          text-align: center; }
+        
+        .left {
+          text-align: left; }
+        
+        .right {
+          text-align: right; }
+        
+        .cp {
+          cursor: pointer; }
+        
+        html, body {
+          height: 100%; }
+        
+        p {
+          margin-bottom: 0px;
+          width: 100%; }
+        
+        .no-padding {
+          padding: 0px; }
+        
+        .no-margin {
+          margin: 0px; }
+        
+        .hid {
+          display: none; }
+        
+        .top-mar {
+          margin-top: 15px; }
+        
+        .h-100 {
+          height: 100%; }
+        
+        ::placeholder {
+          color: #747f8a !important;
+          font-size: 13px;
+          opacity: .5 !important; }
+        
+        .container-fluid {
+          padding: 0px; }
+        
+        h1, h2, h3, h4, h5, h6 {
+          color: #545454; }
+        
+        body {
+          background-color: #f1f1f145 !important;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          text-rendering: optimizeLegibility;
+          color: #6A6A6A;
+          overflow-x: hidden; }
+        
+        .session-title {
+          padding: 30px;
+          margin: 0px;
+          margin-bottom: 20px; }
+          @media screen and (max-width: 767px) {
+            .session-title {
+              padding: 5px; } }
+          .session-title h2 {
+            width: 100%;
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 0px; }
+          .session-title p {
+            max-width: 850px;
+            text-align: center;
+            float: none;
+            margin: auto;
+            font-size: .9rem;
+            margin-top: 6px; }
+          .session-title span {
+            float: right;
+            font-style: italic; }
+        
+        .inner-title {
+          padding: 20px;
+          padding-left: 0px;
+          margin: 0px;
+          margin-bottom: 10px;
+          padding-bottom: 0px;
+          border-bottom: 1px solid #ccccccc4;
+          display: block;
+          padding-right: 0px; }
+          .inner-title h2 {
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: left;
+            border-bottom: 1px solid #863dd9;
+            padding-bottom: 10px;
+            margin-bottom: 0px;
+            width: 300px; }
+          .inner-title p {
+            width: 100%;
+            text-align: center; }
+          .inner-title .btn {
+            float: right;
+            margin-top: -38px;
+            font-weight: 600;
+            font-size: .8rem; }
+        
+        .page-nav {
+          background-size: 100%;
+          padding: 68px;
+          text-align: center;
+          background-color: #eaeaea; }
+          .page-nav ul {
+            float: none;
+            margin: auto; }
+          @media screen and (max-width: 992px) {
+            .page-nav {
+              background-size: auto; } }
+          @media screen and (max-width: 767px) {
+            .page-nav {
+              padding-top: 200px;
+              padding-bottom: 40px; } }
+          @media screen and (max-width: 356px) {
+            .page-nav {
+              padding-top: 200px;
+              padding-bottom: 40px; } }
+          .page-nav h2 {
+            font-size: 28px;
+            width: 100%;
+            font-weight: 700;
+            color: #444; }
+            @media screen and (max-width: 600px) {
+              .page-nav h2 {
+                font-size: 26px; } }
+          .page-nav ul li {
+            float: left;
+            margin-right: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+            font-size: .93rem;
+            font-weight: 600;
+            color: #444; }
+            .page-nav ul li i {
+              width: 30px;
+              text-align: center;
+              color: #444; }
+            .page-nav ul li a {
+              color: #444;
+              font-size: .93rem;
+              font-weight: 600; }
+        
+        .btn-success {
+          background-color: #51be78;
+          border-color: #51be78; }
+          .btn-success:hover {
+            background-color: goldenrod !important;
+            border-color: #51be78 !important; }
+          .btn-success:active {
+            background-color: #51be78 !important;
+            border-color: #51be78 !important; }
+          .btn-success:focus {
+            background-color: #51be78 !important;
+            border-color: #51be78 !important;
+            box-shadow: none !important; }
+        
+        .btn-primary {
+          background-color: #3cc88f;
+          border-color: #3cc88f; }
+          .btn-primary:hover {
+            background-color: goldenrod!important;
+            border-color: #3cc88f !important; }
+          .btn-primary:active {
+            background-color: #3cc88f !important;
+            border-color: #3cc88f !important; }
+          .btn-primary:focus {
+            background-color: #3cc88f !important;
+            border-color: #3cc88f !important;
+            box-shadow: none !important; }
+        
+        .btn {
+          box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          border-radius: 2px; }
+        
+        .form-control:focus {
+          box-shadow: none !important;
+          border: 1px solid #CCC; }
+        
+        .btn-light {
+          background-color: #FFF;
+          color: #3F3F3F; }
+        
+        .collapse.show {
+          display: block !important; }
+        
+        .form-control:focus {
+          box-shadow: none;
+          border: 1px solid #CCC; }
+        
+        .form-control {
+          background-color: #F8F8F8;
+          margin-bottom: 20px; }
+          .form-control:focus {
+            background-color: #FFF;
+            border-color: #CCC; }
+        
+        .container {
+          max-width: 1170px; }
+          @media screen and (max-width: 575px) {
+            .container {
+              padding: 10px 15px; } }
+        
+        /* =================== Header Style Starts Here =================== */
+        header {
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          background-color: #FFF;
+          width: 100%;
+          z-index: 99; }
+          header .logo {
+            padding-top: 6px; }
+          header .header-top {
+            background-color: #fff;
+            border-bottom: 1px solid #d3d7cea6;
+            padding: 7px; }
+            header .header-top .col-det .ulleft li {
+              float: left;
+              padding: 12px;
+              color: #686968;
+              font-size: .9rem; }
+              header .header-top .col-det .ulleft li i {
+                margin-right: 5px;
+                color: #bfbfbf; }
+              header .header-top .col-det .ulleft li span {
+                margin-left: 15px; }
+            header .header-top .col-det .ulright {
+              float: right; }
+              header .header-top .col-det .ulright li {
+                float: left;
+                padding: 10px;
+                color: #d3d7ce;
+                font-size: 1rem;
+                font-weight: 600; }
+                header .header-top .col-det .ulright li i {
+                  margin-right: 5px;
+                  color: #8c8a8a; }
+                header .header-top .col-det .ulright li small {
+                  color: #8c8a8a;
+                  font-weight: 600; }
+                header .header-top .col-det .ulright li span {
+                  margin-left: 15px; }
+            header .header-top .btn-bhed {
+              padding-top: 7px;
+              text-align: right; }
+              header .header-top .btn-bhed .btn {
+                padding: 5px 23px;
+                border-radius: 50px;
+                margin-left: 5px; }
+          header .header-bottom {
+            padding: 6px;
+            background-color: #fff; }
+            @media screen and (max-width: 991px) {
+              header .header-bottom {
+                padding: 0px; } }
+            @media screen and (max-width: 991px) {
+              header .header-bottom img {
+                padding: 5px;
+                margin-top: 0px;
+                max-width: 230px; } }
+          header .nav-col .navbad {
+            display: block;
+            float: right; }
+            @media screen and (max-width: 991px) {
+              header .nav-col .navbad {
+                width: 100%; } }
+            header .nav-col .navbad li {
+              padding: 15px 15px;
+              font-weight: 700;
+              font-size: .7rem;
+              float: left; }
+              @media screen and (max-width: 1005px) {
+                header .nav-col .navbad li {
+                  padding: 15px 12px; } }
+              @media screen and (max-width: 991px) {
+                header .nav-col .navbad li {
+                  float: none;
+                  width: 100%;
+                  padding: 10px; } }
+              header .nav-col .navbad li a {
+                color: #686968 !important;
+                border: 1px solid #CCC;
+                border-radius: 50px; }
+                header .nav-col .navbad li a:hover {
+                  background-color: goldenrod;
+                  color: #fff !important; }
+            header .nav-col .navbad .nav-btn {
+              float: right; }
+          header .small-menu {
+            float: right;
+            color: #686968;
+            font-size: 1.8rem;
+            position: absolute;
+            right: 10px;
+            top: 19px; }
+        
+        @media screen and (max-width: 767px) {
+          .navbar {
+            padding: 0px; } }
+        
+        .navbar-toggler {
+          position: absolute;
+          right: 0px;
+          top: -40px; }
+          @media screen and (max-width: 767px) {
+            .navbar-toggler {
+              top: -50px; } }
+        
+        .scroll-to-fixed-fixed {
+          background-color: #FFF;
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+        
+        .scroll-to-fixed-fixed {
+          padding: 5px !important; }
+        
+        /* =================== Slider Style Starts Here =================== */
+        .slider {
+          position: relative; }
+        
+        .slider-captions {
+          position: absolute;
+          bottom: 132px;
+          text-align: center; }
+        
+        @media screen and (max-width: 1050px) {
+          .slider-captions {
+            bottom: 100px !important; }
+        .slider-captions{
+          width: 90%;
+          text-align: center;
+          float: none;
+          margin: auto;
+        }
+          .slider-captions .slider-title {
+            font-size: 42px; } }
+        @media screen and (max-width: 810px) {
+          .slider-captions {
+            bottom: 50px !important; }
+        
+          .slider-captions .slider-title {
+            font-size: 32px; } }
+        @media screen and (max-width: 572px) {
+          .slider-captions {
+            display: none; } }
+        .slider-title {
+          font-size: 66px;
+          font-weight: 600;
+          color: #fff;
+          letter-spacing: -3px; }
+        
+        .slider-text {
+          margin-bottom: 20px;
+          color: #fff; }
+        
+        .slider-img {
+          background: -moz-linear-gradient(top, rgba(45, 32, 44, 0.3) 0%, rgba(45, 32, 44, 0.1) 100%);
+          background: -webkit-linear-gradient(top, rgba(45, 32, 44, 0.3) 0%, rgba(45, 32, 44, 0.1) 100%);
+          background: linear-gradient(to bottom, rgba(45, 32, 44, 0.3) 0%, rgba(45, 32, 44, 0.1) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc1b2429', endColorstr='#cc1b2429', GradientType=0);
+          position: relative; }
+        
+        .slider-img img {
+          position: relative;
+          z-index: -1; }
+        
+        .slider .owl-nav .owl-prev,
+        .slider .owl-nav .owl-next {
+          color: #fff;
+          display: inline-block;
+          zoom: 1;
+          margin: 5px;
+          padding: 6px 12px;
+          font-size: 22px;
+          -webkit-border-radius: 23px;
+          -moz-border-radius: 23px;
+          border-radius: 23px;
+          background: transparent;
+          filter: Alpha(Opacity=50);
+          line-height: 1;
+          border: 2px solid #fff; }
+        
+        .owl-controls.clickable .owl-buttons div:hover {
+          filter: Alpha(Opacity=100);
+          opacity: 1;
+          text-decoration: none;
+          background-color: #fff; }
+        
+        .slider .owl-nav .owl-prev {
+          position: absolute;
+          top: 40%;
+          left: 25px; }
+        
+        .slider .owl-nav .owl-next {
+          position: absolute;
+          top: 40%;
+          right: 25px; }
+        
+        .slider .owl-dots .owl-dot {
+          position: relative;
+          text-align: center;
+          bottom: 40px;
+          max-width: 1140px;
+          margin: 0 auto; }
+        
+        .slider .owl-dots .owl-dot span {
+          display: block;
+          width: 14px;
+          height: 14px;
+          margin: 0px 0px 10px 10px;
+          filter: Alpha(Opacity=50);
+          /*IE7 fix*/
+          opacity: 0.8;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          border-radius: 20px;
+          border: 2px solid #fff;
+          float: left; }
+        
+        .slider .owl-dots .owl-dot.active span {
+          background-color: #fff; }
+        
+        .slider .owl-dots .owl-dot.active span,
+        .slider .owl-controls.clickable .owl-page:hover span {
+          background-color: #fff;
+          filter: Alpha(Opacity=100);
+          /*IE7 fix*/
+          opacity: 1; }
+        
+        .slider .col-lg-offset-2 {
+          float: none;
+          margin: auto; }
+        
+        /* ===================================== About CSS ================================== */
+        .about-us {
+          background-color: #edf1f5;
+          padding: 50px; }
+          @media screen and (max-width: 940px) {
+            .about-us {
+              padding: 30px 10px; } }
+          .about-us .natur-row {
+            margin-top: 20px; }
+          .about-us .text-part h2 {
+            font-weight: 600;
+            font-size: 1.8rem;
+            margin-bottom: 20px; }
+          .about-us .text-part p {
+            text-indent: 20px;
+            margin-bottom: 15px;
+            line-height: 27px;
+            font-weight: 500;
+            text-align: justify;
+            font-size: .9rem; }
+          .about-us .image-part .about-quick-box .about-qcard {
+            padding: 50px 30px;
+            background-color: #FFF;
+            box-shadow: 0 2px 3px 0 rgba(218, 218, 253, 0.35), 0 0px 3px 0 rgba(206, 206, 238, 0.35);
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 30px; }
+            .about-us .image-part .about-quick-box .about-qcard p {
+              font-weight: 600;
+              font-size: 1.2rem; }
+            .about-us .image-part .about-quick-box .about-qcard i {
+              font-size: 3rem;
+              margin-bottom: 30px;
+              color: goldenrod; }
+            .about-us .image-part .about-quick-box .about-qcard .red {
+              color: #ff6b70; }
+            .about-us .image-part .about-quick-box .about-qcard .yell {
+              color: #f7a900; }
+            .about-us .image-part .about-quick-box .about-qcard .blu {
+              color: goldenrod; }
+        
+        /* ===================================== Events Home CSS ================================== */
+        .events {
+          background-color: #efefef2e;
+          padding: 50px; }
+        
+        @media screen and (max-width: 940px) {
+          .events {
+            padding: 30px 10px; } }
+        .events .event-ro .event-box {
+          text-align: center;
+          margin-bottom: 20px; }
+        
+        .events .event-ro .event-box img {
+          margin-bottom: 20px; }
+        
+        .events .event-ro .event-box h4 {
+          font-size: 18px; }
+        
+        .events .event-ro .event-box .raises {
+          margin-bottom: 10px; }
+        
+        .events .event-ro .event-box .raises span {
+          color: #71b61b; }
+        
+        .events .event-ro .event-box .desic {
+          font-size: 13px;
+          margin-bottom: 15px; }
+        
+        /* ===================================== Mission Vision CSS ================================== */
+        .mission-vision {
+          background-color: #FFF; }
+          .mission-vision .mission {
+            padding: 50px; }
+            @media screen and (max-width: 940px) {
+              .mission-vision .mission {
+                padding: 30px 10px; } }
+          .mission-vision .vision {
+            padding: 50px; }
+            @media screen and (max-width: 940px) {
+              .mission-vision .vision {
+                padding: 30px 10px; } }
+          .mission-vision .mv-det {
+            margin: auto; }
+        
+        /* ===================================== Charity Number CSS ================================== */
+        .doctor-message {
+          background-image: url("../images/slider/slider-2.jpg");
+          background-attachment: fixed;
+          background-size: cover; }
+          .doctor-message .session-title h2 {
+            color: #FFF; }
+        
+        .doctor-message .inner-lay {
+          background-color: rgba(0, 0, 0, 0.8);
+          padding: 50px;
+          color: #FFF; }
+        
+        @media screen and (max-width: 940px) {
+          .doctor-message .inner-lay {
+            padding: 30px 10px; } }
+        .doctor-message .inner-lay .numb {
+          text-align: center;
+          padding: 30px; }
+        
+        .doctor-message .inner-lay .numb h3 {
+          font-size: 42px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #CCC;
+          margin-bottom: 20px;
+          color: #FFF; }
+        
+        /* ===================================== Our Blog CSS ================================== */
+        .our-blog {
+          background-color: #FDFDFD;
+          padding: 40px; }
+        
+        @media screen and (max-width: 967px) {
+          .our-blog {
+            padding: 30px 0px; } }
+        .our-blog .single-blog {
+          margin-bottom: 20px;
+          background-color: #FFF;
+          box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54); }
+        
+        .our-blog .single-blog figure {
+          margin-bottom: 5px; }
+        
+        .our-blog .single-blog .blog-detail {
+          padding: 15px; }
+        
+        .our-blog .single-blog small {
+          color: #71b61b;
+          font-size: 12px; }
+        
+        .our-blog .single-blog h4 {
+          font-size: 1.2rem;
+          margin-bottom: 10px;
+          margin-top: 10px; }
+        
+        .our-blog .single-blog p {
+          text-align: justify;
+          text-indent: 20px; }
+        
+        .our-blog .single-blog .link a {
+          font-size: 12px;
+          color: #71b61b; }
+        
+        .our-blog .single-blog .link i {
+          padding-top: 6px;
+          margin-left: 5px;
+          color: #FFFFFF; }
+        
+        /* ===================================== Fooer CSS ================================== */
+        .footer {
+          padding: 50px;
+          padding-bottom: 50px;
+          background-color: #1e2436;
+          color: #FFF; }
+        
+        @media screen and (max-width: 940px) {
+          .footer {
+            padding: 30px 10px; } }
+        .footer h2 {
+          font-size: 26px;
+          margin-top: 10px;
+          color: #FFF;
+          font-size: 1.2rem;
+          margin-bottom: 15px; }
+        
+        .footer p {
+          text-align: justify;
+          text-indent: 20px;
+          font-size: .9rem; }
+        
+        .footer .link-list li {
+          padding: 10px;
+          border-bottom: 1px solid #6C6C6C;
+          font-size: .9rem; }
+        
+        .footer .link-list li a {
+          color: #FFF; }
+        
+        .footer .link-list li i {
+          float: right; }
+        
+        .footer .map-img {
+          font-weight: 600;
+          font-size: 17px;
+          padding-left: 20px; }
+        
+        .footer address {
+          font-weight: 300; }
+        
+        .footer address a {
+          color: #FFF;
+          font-size: 1rem;
+          font-family: "mouse-300", Arial, Helvetica, sans-serif; }
+        
+        .copy {
+          padding: 20px;
+          background: #1a202f;
+          color: #FFF; }
+        
+        .copy a {
+          color: #FFF; }
+        
+        .copy span {
+          float: right; }
+        
+        .copy span i {
+          margin-right: 20px; }
+        
+        .kf-2 {
+          background-color: #FCFCFC;
+          padding: 50px; }
+        
+        @media screen and (max-width: 940px) {
+          .kf-2 {
+            padding: 30px 10px; } }
+        .kf-2 .single-key {
+          box-shadow: 0 2px 3px 0 rgba(218, 218, 253, 0.35), 0 0px 3px 0 rgba(206, 206, 238, 0.35); }
+        
+        /* ===================================== Our Team Starts Here ===================================== */
+        .our-team {
+          padding: 50px;
+          background-color: #cccccc1c; }
+          @media screen and (max-width: 940px) {
+            .our-team {
+              padding: 30px 10px; } }
+          .our-team .team-row {
+            margin-top: 20px; }
+            .our-team .team-row .single-usr {
+              box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
+              margin-bottom: 20px; }
+              .our-team .team-row .single-usr img {
+                width: 100%; }
+              .our-team .team-row .single-usr .det-o {
+                padding: 20px;
+                background-color: goldenrod; }
+                .our-team .team-row .single-usr .det-o h4 {
+                  color: #FFF;
+                  margin-bottom: 0px;
+                  font-size: 1.1rem;
+                  font-weight: 600; }
+                .our-team .team-row .single-usr .det-o i {
+                  color: #FFF;
+                  font-size: .8rem; }
+        
+        .nav-box {
+          margin-top: 50px;
+          border-radius: 50px;
+          border: 1px solid #ccc; }
+          .nav-box ul li {
+            float: left;
+            padding: 15px; }
+            .nav-box ul li a {
+              color: #FFFF; }
+          .nav-box .btn {
+            margin-top: 7px;
+            float: right;
+            border-radius: 50px; }
+        
+        /* ===================================== Gallery Style  ================================== */
+        .gallery-filter {
+          width: 100%;
+          text-align: center; }
+        
+        .gallery-filter .btn {
+          background-color: #FFF; }
+        
+        .gallery {
+          padding: 50px;
+          padding: 30px;
+          background-color: #FFF; }
+          @media screen and (max-width: 940px) {
+            .gallery {
+              padding: 30px 10px; } }
+        
+        .gallery-title {
+          font-size: 36px;
+          color: #00ab9f;
+          text-align: center;
+          font-weight: 500;
+          margin-bottom: 70px; }
+        
+        .gallery-title:after {
+          content: "";
+          position: absolute;
+          width: 7.5%;
+          left: 46.5%;
+          height: 45px;
+          border-bottom: 1px solid #3cc88f; }
+        
+        .filter-button {
+          font-size: 18px;
+          border: 1px solid #3cc88f;
+          border-radius: 5px;
+          text-align: center;
+          color: #3cc88f;
+          margin-bottom: 30px; }
+        
+        .filter-button:hover {
+          font-size: 18px;
+          border: 1px solid #3cc88f;
+          border-radius: 5px;
+          text-align: center;
+          color: #ffffff;
+          background-color: #3cc88f; }
+        
+        .btn-default:active .filter-button:active {
+          background-color: #3cc88f;
+          color: white; }
+        
+        .port-image {
+          width: 100%; }
+        
+        .gallery_product {
+          margin-bottom: 30px; }
+        
+        /*# sourceMappingURL=style.css.map */
+        
+
+    </style>
+<style>
+    body{margin-top:20px;}
+.section_padding_130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.faq_area {
+    position: relative;
+    z-index: 1;
+    background-color: #f5f5ff;
+}
+
+.faq-accordian {
+    position: relative;
+    z-index: 1;
+}
+.faq-accordian .card {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1.5rem;
+}
+.faq-accordian .card:last-child {
+    margin-bottom: 0;
+}
+.faq-accordian .card .card-header {
+    background-color: #ffffff;
+    padding: 0;
+    border-bottom-color: #ebebeb;
+}
+.faq-accordian .card .card-header h6 {
+    cursor: pointer;
+    padding: 1.75rem 2rem;
+    color: #3f43fd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.faq-accordian .card .card-header h6 span {
+    font-size: 1.5rem;
+}
+.faq-accordian .card .card-header h6.collapsed {
+    color: #070a57;
+}
+.faq-accordian .card .card-header h6.collapsed span {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.faq-accordian .card .card-body {
+    padding: 1.75rem 2rem;
+}
+.faq-accordian .card .card-body p:last-child {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 575px) {
+    .support-button p {
+        font-size: 14px;
+    }
+}
+
+.support-button i {
+    color: #3f43fd;
+    font-size: 1.25rem;
+}
+@media only screen and (max-width: 575px) {
+    .support-button i {
+        font-size: 1rem;
+    }
+}
+
+.support-button a {
+    text-transform: capitalize;
+    color: #2ecc71;
+}
+@media only screen and (max-width: 575px) {
+    .support-button a {
+        font-size: 13px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+    
+  <header class="continer-fluid ">
+    <div  class="header-top">
+        <div class="container">
+            <div class="row col-det">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <ul class="ulleft">
+                        <li>
+                            <i class="far fa-envelope"></i>
+                            email: info@ileapinternational.com
+                            <span>|</span></li>
+                        <li>
+                            <i class="fas fa-phone-volume"></i>
+                            00233 31 229 4157</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 folouws">
+                  
+                    <ul class="ulright">
+                       <li> <small>Folow Us </small>:</li>
+                        <li>
+                            <i class="fab fa-facebook-square"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter-square"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 d-none d-md-block col-md-6 btn-bhed">
+                    <button class="btn btn-sm btn-danger">Become a Volunteer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu-jk" class="header-bottom">
+        <div class="container">
+            <div class="row nav-row">
+                <div class="col-lg-3 col-md-12 logo">
+                    <a href="index.html">
+                        <img src="assets/images/logonew.jpg" alt="" width="80" height="50">
+                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
+                    </a>
+
+                </div>
+
+                
+                <div id="menu" class="col-lg-9 col-md-12 d-none d-lg-block nav-col">
+
+                            <ul class="navbad">
+                               
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about_us.html">About Us</a>
+                                </li>
+                                
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="link" data-bs-toggle="dropdown" aria-expanded="false">Volunteering Programs</a>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                        <li><a class="dropdown-item" href="programs.html">Programs</a></li>
+                                        <li><a class="dropdown-item" href="whyileap.html">Why iLeap?</a></li>
+                                        <li><a class="dropdown-item" href="fees.html">Program fees</a></li>
+                                        <li><a class="dropdown-item" href="vpoilcy.html">Volunteering Policy</a></li>
+                                        <li><a class="dropdown-item" href="virtualVolunteering.html">Virtul Volunteering</a></li>
+                                        <li><a class="dropdown-item" href="#">Apply Now</a></li>
+                                        <li><a class="dropdown-item" href="faq.html">FAQ’s</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="link" data-bs-toggle="dropdown" aria-expanded="false">Intercultural Programs</a>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                
+                                        <li><a class="dropdown-item" href="#">International students</a></li>
+                                        <li><a class="dropdown-item" href="#">Gap year students</a></li>
+                                        <li><a class="dropdown-item" href="interculturalfees.html">Program Fees</a></li>
+                                        
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="link" data-bs-toggle="dropdown" aria-expanded="false">Tour</a>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                        
+                                        <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                                        <li><a class="dropdown-item" href="#">Sign Up</a></li>
+            
+                                      
+                                    </ul>
+                                </li>
+    
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="shoponline.html">Shop Online
+                                  </a>
+                              </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Research</a>
+                                </li>
+
+
+                            </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div> 
+</header>
+  <!--  ************************* Page Title Starts Here ************************** -->
+        
+  
+    
+    
+   
+<!-- ################# Our Blog Starts Here#######################--->
+
+    <section class="our-blog">
+
+        
+         	<div class="container py-4">
+     
+                
+
+                <div class="faq_area section_padding_130" id="faq ">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-8 col-lg-6">
+                                <!-- Section Heading-->
+                                <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                    <h3><span>Frequently </span> Asked Questions</h3>
+                                    <p> </p>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <!-- FAQ Area-->
+                            <div class="col-12 col-sm-10 col-lg-8">
+                                <div class="accordion faq-accordian" id="faqAccordion">
+                                    <div class="card border-0 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                        <div class="card-header" id="headingOne">
+                                            <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How safe will I be?<span class="lni-chevron-up"></span></h6>
+                                        </div>
+                                        <div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                                            <div class="card-body">
+                                                <p>The safety and security of volunteers is extremely paramount. Ghana is relatively safe and peaceful. ILeap’s multi-pronged approach to help you stay safe include training before and during your service. We have enormous experience and excellent track records for guaranteeing the safety of volunteers.  Our project site selection safety criteria, emergency communication systems, policies on safety and procedures, detailed emergency action plan and staff trained on protocols for responding to crimes and other incidents is awesome. ILeap works with chiefs, government appointees in districts as well as the Police institutions in communities we serve. 
+                                                    It is true that crime happens in every country, our purpose is to reduce the likelihood that you will become a crime victim. You are also trained to take steps to make yourself a less likely target of crime. You will be integrated into communities, learn local languages, stay aware of current issues around you and abide by ILeap’s policies and procedures on safety and security. Our doctors & nurses leading the Doctors on Wheels project will provide you with 24/7 medical care
+                                                    </p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                        <div class="card-header" id="headingTwo">
+                                            <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Why  must I Volunteer<span class="lni-chevron-up"></span></h6>
+                                        </div>
+                                        <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                                            <div class="card-body">
+                                                <p>60% of your program fees help provide school supplies and training in STEM education for out of school children and children who have dropped out of school. Vulnerable women and girls are empowered to take up sustainable livelihood programs to make a living. 
+                                                    <br> ✔	You leave a sustainable impact for vulnerable communities with your expertise and experience.
+                                                    <br> ✔	Invaluable opportunities for your personal and career development
+                                                    <br> ✔	You create  lasting memories for yourself
+                                                    <br> ✔	You forge life-long friendships
+                                                    <br> ✔	You will be recognized  after your volunteering time
+                                                    </p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                        <div class="card-header" id="headingThree">
+                                            <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">How well will iLeap support me<span class="lni-chevron-up"></span></h6>
+                                        </div>
+                                        <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                                            <div class="card-body">
+                                                <p>At every stage of your volunteer journey with the ILeap, we will provide you with the following: <br>
+                                                   <br> ▪	Online language orientation before your arrival.
+                                                   <br> ▪	Supporting documents to assist you travel.
+                                                    <br>▪	Comprehensive training before and during your volunteering time.
+                                                   <br> ▪	Continuing support from our offices in Accra and Kumasi.
+                                                   <br> ▪	Recognize your expertise, time and skills after your volunteering time.
+                                                   <br> ▪	Guarantee safety and reliable security
+                                                   <br> ▪	Assist with travel arrangements
+                                                   <br> ▪	Subsidize your medical care and provide you with quality medical support <br>
+                                                    At iLeap, our values of equality, diversity and inclusion attract volunteers  from all walks of life. Volunteers work alongside others from different countries and communities they work in. 
+                                                    </p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                </div>
+                                <!-- Support Button-->
+                                <div class="support-button text-center d-flex align-items-center justify-content-center mt-4 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                    <i class="lni-emoji-sad"></i>
+                                   
+                                    <a href="#"> Can't find what You are looking for? Contact us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+    <!--Section: FAQ-->
+<section>
+    <hr>
+    <div class="faq_area section_padding_130" id="faq ">
+        <div class="container">
+    <p class="text-center mb-5">
+      Find the answers for the most frequently asked questions below
+    </p>
+  
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> When do I travel to Ghana?</h6>
+        <p style=" text-align: justify;
+        text-justify: inter-word;">
+            This is at the discretion of a volunteer. However, we advise that your intention to travel is evinced at the earliest to the ILeap team to enable us plan logistics as early as possible. Due to high demand of projects, we advise that you give us enough notice ( 3 to 6 months before your departure). The iLeap team is able to process late applications. It is better late than never. 
+        </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i>What happens when I arrive in Ghana?
+        </h6>
+        <p style=" text-align: justify;
+        text-justify: inter-word;">At I Leap, it is our duty to keep our volunteers happy and safe. At least 1of our project coordinators, with their details shared with you before your arrival will be waiting at Kotoka International Airport. Your project coordinator who had an online language lessons with you will be the one meeting you at the airport. That is an iLeap tradition. 
+            For all issues involving your stay with us in Ghana, feel free to speak with your local Volunteering Officer. You can equally send an email to <strong>enquiries@ileapinternational.org</strong>
+            .</p>
+      </div>
+
+      
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> Who will help me organize my visa?
+        </h6>
+        <p style=" text-align: justify;
+        text-justify: inter-word;">
+            The obligation is on you, the volunteer. ILeap will issue ALL relevant travel documents to aid your visa application. For traveling concerns, get in touch at <strong>travel@ileapinternational.com</strong> 
+        </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> Do I need vaccinations before traveling to Ghana?
+        </h6>
+        <p style=" text-align: justify;
+        text-justify: inter-word;">
+            ILeap advise that you consult your physician or family doctor before making a journey to Ghana. As a precautionary measure, we suggest that Yellow Fever, Hepatitis A and B and Typhoid be taken as a precaution. Yellow Fever is a must. Without it you cannot enter Ghana. 
+        </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> What happens after making the application?</h6>
+        <p style=" text-align: justify;
+        text-justify: inter-word;">
+            After you have completed your online application or  submitted your CV, you’ll receive a confirmation in 60 minutes. The team will get back to you on the status of your application. 
+        </p>
+      </div>
+
+      
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Can I Tour whiles volunteering?</h6>
+        <p style=" text-align: justify;
+        text-justify: inter-word;">
+            It is a yes. The iLeap tour team will arrange with you and drive you safely where you want to go at a subsidized cost. No need to worry. Browse the iLeap tour for more information.
+        </p>
+      </div>
+    </div>
+</div>
+</div>
+  </section>
+  <!--Section: FAQ-->
+
+
+
+               
+        		
+         	</div>
+         </section>
+      
+      
+       
+  
+                 
+  <!--  ************************* Footer Starts Here ************************** -->
+          
+  <footer class="footer bg-danger">
+    <div class="container bg-danger">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <h2>About Us</h2>
+                <p>
+                  For every $1 USD program fees paid, 80% is spent on volunteer accommodation, meals, support systems among others. 40% promotes SLP & children programs. 
+                  For every $1 USD program fees paid, 95% is spent on SLP & children programs
+                    
+                </p>
+                
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <h2>Useful Links</h2>
+                <ul class="list-unstyled link-list">
+                    <li><a ui-sref="about" href="#/about">About us</a><i class="fa fa-angle-right"></i></li>
+                    <li><a ui-sref="gallery" href="#/gallery">Gallery</a><i class="fa fa-angle-right"></i></li>
+                    <li><a ui-sref="contact" href="#/contact">Contact us</a><i class="fa fa-angle-right"></i></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-12 map-img">
+                <h2>Contact Us</h2>
+                <address class="md-margin-bottom-40">
+                  Post Office Box CT 6013, Cantonments, Accra – Ghana. <br>
+                  
+                    Phone: 00233 31 229 4157 <br>
+                    Email: <a href="mailto:info@ileapinternational.com" class="">info@ileapinternational.com</a><br>
+                    Web: <a href="#" class="">www.ileapinternational.com</a>
+                </address>
+
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    
+
+</footer>
+<div class="copy">
+        <div class="container">
+            <a href="#">2022 &copy; All Rights Reserved | iLeaps international</a>
+            
+            <span>
+           
+            <a><i class="fab fa-google-plus-g"></i></a>
+            <a><i class="fab fa-youtube"></i></a>
+            <a><i class="fab fa-twitter"></i></a>
+            <a><i class="fab fa-facebook-f"></i></a>
+    </span>
+        </div>
+
+    </div>
+        
+          
+    
+</body>
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="assets/plugins/slider/js/owl.carousel.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>          
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+
+</html>
