@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @sirkofiknight
 - 👀 I’m interested in 
-- 🌱 I’m currently learning ... bootstrap and javascript
-- 💞️ I’m looking to collaborate on ...front end developments
+- 🌱 I’m currently learning ...Data science, bootstrap and javascript
+- 💞️ I’m looking to collaborate on data science projects and web dev projects
 - 📫 How to reach me ...richardoseiadu1@gmail.com
 
 <!---
